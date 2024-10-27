@@ -1,0 +1,35 @@
+<html>
+    <head>
+	
+		<script src="proghitungan.js"></script>
+		<style>
+            body {
+                background-color:beige;
+                text-align: center;
+                background-image:"pasha.jpeg";
+            }                
+        </style>
+    </head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+   <body>
+         <h1>KALKULATOR PERHITUNGAN SEDERHANA</h1>
+         <h2>Masukan angka yang akan dihitung</h2>
+         <input size="10" id="variabel1" value="">
+         <select id="operator">
+               <option value="1">+</option>
+               <option value="2">-</option>
+               <option value="3">*</option>
+               <option value="4">/</option>
+          </select>
+         <input size="10" id="variabel2" value="">
+         <button  onclick="hitung()"   id="button1">Hitung</button>
+         <br>
+         <div id="hasil">Hasil perhitungan di sini</div>
+         <p><strong>Panduan Menggunakan Kalkulator</strong></p>
+         <p>1. Memasukkan angka yang akan dihitung pada kolong perhitungan</p>
+         <p>2. Memilih operasi perhitungan yang akan dihitung pada kolom perhitungan</p>
+         <p>3. Memilih tombol <strong>"Hitung"</strong> disebelah kolom perhitungan</p>
+         <p>4. maka hasil akan muncul pada kolom Perhitungan</p>
+         
+   </body>
+</html>
