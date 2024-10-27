@@ -1,0 +1,56 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type":"Feature",
+            "geometry": {
+                "type": "point",
+                "coordinates": [104.0553757,-4.9732299]
+            
+            },
+            "properties":{
+                "name": "Kantor Kecamatan"
+            }  
+        },
+        {   "type":"Feature",
+            "geometry": {
+                "type": "point",
+                "coordinates": [104.0054252,-4.9671146]
+        
+            },
+            "properties": {
+            "name": "Balai Pekon"
+            }  
+        },
+        {   "type":"Feature",
+            "geometry": {
+                "type": "point",
+                "coordinates": [104.0642552,-4.9518295]
+        
+            },
+            "properties": {
+            "name": "Masjid Salam Rejo"
+            }   
+        },
+        {   "type":"Feature",
+            "geometry": {
+                "type": "point",
+                "coordinates": [104.0135901,-4.9395427]
+        
+            },
+            "properties": {
+            "name": "Air Terjun Curug Indah"
+            }   
+        },
+        {   "type":"Feature",
+            "geometry": {
+               "type": "point",
+               "coordinates": [104.0308097,-4.9916134]
+            },
+            "properties": {
+            "name": "Kantor KUA Kecamatan Sukau"
+            }   
+        }
+  
+    ]
+}
